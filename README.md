@@ -35,6 +35,16 @@ pip install fastapi uvicorn paddleocr pillow numpy python-multipart
 uvicorn ocr_server:app --reload --host 0.0.0.0 --port 8000
 ```
 
+Windows (PowerShell):
+
+```powershell
+cd backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install fastapi uvicorn paddleocr pillow numpy python-multipart
+uvicorn ocr_server:app --reload --host 0.0.0.0 --port 8000
+```
+
 Default endpoints:
 
 - `GET /` — health/info message
