@@ -13,7 +13,7 @@ EduLocal is a local-first education project with:
 ## Frontend (React + Vite)
 
 ```bash
-cd /home/runner/work/edulocal/edulocal/edulocal
+cd edulocal
 npm install
 npm run dev
 ```
@@ -28,7 +28,7 @@ Available scripts:
 ## Backend (FastAPI OCR)
 
 ```bash
-cd /home/runner/work/edulocal/edulocal/backend
+cd backend
 python -m venv .venv
 source .venv/bin/activate
 pip install fastapi uvicorn paddleocr pillow numpy python-multipart
